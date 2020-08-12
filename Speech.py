@@ -97,3 +97,8 @@ while listening == True:
             r = requests.get(url,headers=headers).text
             match = re.findall('Uo8X3b\"\>Description\<\/h2\>\<span\>([^<]+)',r)
             speak("According to wikipedia " + match[0])
+<<<<<<< HEAD
+=======
+print('Hello')
+print('How are you')
+>>>>>>> c25ee78441266baa9f6220b9efa1c923c13bebab
