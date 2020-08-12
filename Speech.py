@@ -97,7 +97,5 @@ while listening == True:
             r = requests.get(url,headers=headers).text
             match = re.findall('Uo8X3b\"\>Description\<\/h2\>\<span\>([^<]+)',r)
             speak("According to wikipedia " + match[0])
-<<<<<<< HEAD
-=======
+
 print('Hello')
->>>>>>> parent of c25ee78... Latest commit to add useless print statement
